@@ -339,6 +339,13 @@
                                         <xmlOutput>true</xmlOutput>
                                     </configuration>
                                 </plugin>
+				<plugin>
+				    <artifactId>maven-war-plugin</artifactId>
+				    <version>3.2.1</version>
+				    <configuration>
+				    <warSourceDirectory>WebContent</warSourceDirectory>
+				    </configuration>
+			        </plugin>
                                 <plugin>
                                     <artifactId>maven-javadoc-plugin</artifactId>
                                     <version>2.9.1</version>
